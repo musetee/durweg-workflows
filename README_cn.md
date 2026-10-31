@@ -16,6 +16,7 @@
 
 | 名字 | 做什么 | 仓库 |
 | :--- | :--- | :--- |
+| `write-your-method` | 随 Durweg 一起装好，不用另装：把你自己的做事方法写成一个工作流。对 agent 说：“用 durweg 运行 write-your-method。” | [musetee/durweg](https://github.com/musetee/durweg/blob/main/README_cn.md) |
 | `human-readme` | 让 AI agent 按 7 个固定步骤写项目的 README，写给第一次来的读者 | [musetee/durweg-human-readme](https://github.com/musetee/durweg-human-readme) |
 
 ## 🙋 加上你的
