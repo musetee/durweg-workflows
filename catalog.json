@@ -6,6 +6,11 @@
       "summary": "AI agents write a project's README in 7 fixed steps, for a first-time reader",
       "url": "https://github.com/musetee/durweg-human-readme.git"
     },
+    "name-project": {
+      "title": "Name a project",
+      "summary": "Find a name for a project: core value, white space, candidates, a collision check, one decision",
+      "url": "https://github.com/musetee/name-project.git"
+    },
     "stepaper": {
       "title": "Read a paper step by step",
       "summary": "An AI agent reads a research paper with you one step at a time, lets you question every step, then builds the group-meeting slides",
