@@ -17,6 +17,7 @@
 | 名字 | 做什么 | 仓库 |
 | :--- | :--- | :--- |
 | `human-readme` | 让 AI agent 按 7 个固定步骤写项目的 README，写给第一次来的读者 | [musetee/durweg-human-readme](https://github.com/musetee/durweg-human-readme) |
+| `name-project` | 给项目起名字：核心价值、空白地带、候选名、查重、一次决定 | [musetee/name-project](https://github.com/musetee/name-project) |
 
 ## 🙋 加上你的
 

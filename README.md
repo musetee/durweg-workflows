@@ -18,6 +18,7 @@ With Durweg installed, tell your agent "Show me the durweg workflows I can insta
 | Name | What it does | Repository |
 | :--- | :--- | :--- |
 | `human-readme` | AI agents write a project's README in 7 fixed steps, for a first-time reader | [musetee/durweg-human-readme](https://github.com/musetee/durweg-human-readme) |
+| `name-project` | Find a name for a project: core value, white space, candidates, a collision check, one decision | [musetee/name-project](https://github.com/musetee/name-project) |
 
 ## 🙋 Add yours
 
