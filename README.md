@@ -20,6 +20,7 @@ With Durweg installed, tell your agent "Show me the durweg workflows I can insta
 | `write-your-method` | Comes with Durweg, nothing to install: write down your own way of working as a workflow. Tell your agent: "Run write-your-method with durweg." | [musetee/durweg](https://github.com/musetee/durweg#-example-write-down-your-method) |
 | `human-readme` | AI agents write a project's README in 7 fixed steps, for a first-time reader | [musetee/durweg-human-readme](https://github.com/musetee/durweg-human-readme) |
 | `name-project` | Find a name for a project: core value, white space, candidates, a collision check, one decision | [musetee/name-project](https://github.com/musetee/name-project) |
+| `stepaper` | An AI agent reads a research paper with you one step at a time, lets you question every step, then builds the group-meeting slides | [musetee/durweg-stepaper](https://github.com/musetee/durweg-stepaper) |
 
 ## 🙋 Add yours
 
