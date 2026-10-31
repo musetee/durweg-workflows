@@ -17,6 +17,7 @@
 | 名字 | 做什么 | 仓库 |
 | :--- | :--- | :--- |
 | `human-readme` | 让 AI agent 按 7 个固定步骤写项目的 README，写给第一次来的读者 | [musetee/durweg-human-readme](https://github.com/musetee/durweg-human-readme) |
+| `stepaper` | AI agent 陪你一步一步读论文，每一步都可以质疑，最后做出组会 PPT | [musetee/durweg-stepaper](https://github.com/musetee/durweg-stepaper) |
 
 ## 🙋 加上你的
 

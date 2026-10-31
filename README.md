@@ -18,6 +18,7 @@ With Durweg installed, tell your agent "Show me the durweg workflows I can insta
 | Name | What it does | Repository |
 | :--- | :--- | :--- |
 | `human-readme` | AI agents write a project's README in 7 fixed steps, for a first-time reader | [musetee/durweg-human-readme](https://github.com/musetee/durweg-human-readme) |
+| `stepaper` | An AI agent reads a research paper with you one step at a time, lets you question every step, then builds the group-meeting slides | [musetee/durweg-stepaper](https://github.com/musetee/durweg-stepaper) |
 
 ## 🙋 Add yours
 
