@@ -1,7 +1,7 @@
 """Checks catalog.json for the public Durweg catalog (Durweg plan v1.1 D4).
 
 For every entry: the name and fields are valid; the repository is on GitHub and public; it has
-a README and a LICENSE; its workflow.json is valid for Durweg. Run in CI on every pull request:
+a README and a LICENSE; its workflow.json is valid for Durweg and the files it names exist. Run in CI on every pull request:
     python tools/check_catalog.py <folder with a checkout of musetee/durweg>
 """
 
@@ -55,12 +55,13 @@ def main(durweg):
                 problems.append(f"{where} cannot be cloned: {r.stderr.strip()[-200:]}")
                 continue
             w = Path(tmp) / "w"
-            if not any((w / f).is_file() for f in ("README.md", "README")):
+            if not any((w / f).is_file() for f in ("README.md", "README", "README_cn.md")):
                 problems.append(f"{where} has no README.md")
             if not any((w / f).is_file() for f in ("LICENSE", "LICENSE.md", "LICENSE.txt")):
                 problems.append(f"{where} has no LICENSE")
             try:
-                workflow.load(w)
+                wf = workflow.load(w)
+                workflow.snapshot_sources(wf)      # the skill folder, snapshot files and gate scripts exist
             except Exception as ex:                                  # a WfError, or anything else
                 problems.append(f"{where} workflow.json is not valid: {ex}")
         print(f"checked {name}")
